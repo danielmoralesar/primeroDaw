@@ -20,9 +20,6 @@ public class For08 {
             sum = sum + number;
 
         }
-
-        float divisor = (float)howManyScores;
-
         System.out.println("La media de los números es: " + sum/howManyScores);
     }
 }
