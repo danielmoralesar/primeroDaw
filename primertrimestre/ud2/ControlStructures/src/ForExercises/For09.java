@@ -10,16 +10,16 @@ public class For09 {
         int number = scanner.nextInt();
         scanner.nextLine();
 
-        boolean isPrime = false;
+        boolean isPrime = true;
 
         for (int i = 2; i < number; i++){
             if (number % i == 0) {
-                isPrime = true;
+                isPrime = false;
                 break;
             }
         }
 
-        if (!isPrime) {
+        if (isPrime) {
             System.out.println(number + " es primo");
         } else {
             System.out.println(number + " no es primo");
