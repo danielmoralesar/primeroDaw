@@ -10,14 +10,16 @@ public class For08 {
         int howManyScores = scanner.nextInt();
         scanner.nextLine();
 
-        int adverange = 0;
+        int sum = 0;
 
         for (int i = 0; i < howManyScores; i++) {
             System.out.println("Escriba un número, le quedan " + (howManyScores - i) + " espacios");
             int number = scanner.nextInt();
             scanner.nextLine();
 
+            sum = sum + number;
+
         }
-        System.out.println("El número más grande es: " + adverange);
+        System.out.println("La media de los números es: " + sum/howManyScores);
     }
 }
