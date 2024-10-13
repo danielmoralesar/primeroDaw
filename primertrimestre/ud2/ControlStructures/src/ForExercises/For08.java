@@ -10,16 +10,19 @@ public class For08 {
         int howManyScores = scanner.nextInt();
         scanner.nextLine();
 
-        int sum = 0;
+        float sum = 0;
 
         for (int i = 0; i < howManyScores; i++) {
             System.out.println("Escriba un número, le quedan " + (howManyScores - i) + " espacios");
-            int number = scanner.nextInt();
+            float number = scanner.nextFloat();
             scanner.nextLine();
 
             sum = sum + number;
 
         }
+
+        float divisor = (float)howManyScores;
+
         System.out.println("La media de los números es: " + sum/howManyScores);
     }
 }
