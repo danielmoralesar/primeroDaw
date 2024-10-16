@@ -1,9 +1,9 @@
-package ifexercises;
+package IfExercises;
 
 import java.util.Scanner;
 
 public class Cuarto {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
         //Solicita un string
@@ -14,11 +14,13 @@ public class Cuarto {
         int letras = palabra.length();
 
         //Da el resultado
-        if (letras > 8) {
+        if (letras > 8){
             System.out.println("Demasiado grande");
-        } else if (letras < 8) {
+        }
+        else if (letras < 8) {
             System.out.println("Demasiado pequeño");
-        } else {
+        }
+        else {
             System.out.println("Válido");
         }
     }

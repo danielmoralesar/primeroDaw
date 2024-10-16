@@ -1,4 +1,4 @@
-package switchexcersises;
+package SwitchExcersises;
 
 import java.util.Scanner;
 

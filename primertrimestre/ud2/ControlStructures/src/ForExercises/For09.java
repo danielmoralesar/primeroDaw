@@ -10,6 +10,12 @@ public class For09 {
         int number = scanner.nextInt();
         scanner.nextLine();
 
+        while(number < 1){
+            System.out.println("El número a comprobar no puede ser menor o igual a uno, escriba otro: ");
+            number = scanner.nextInt();
+            scanner.nextLine();
+        }
+
         boolean isPrime = true;
 
         for (int i = 2; i < number; i++){

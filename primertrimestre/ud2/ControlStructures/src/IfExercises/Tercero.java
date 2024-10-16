@@ -1,4 +1,4 @@
-package ifexercises;
+package IfExercises;
 
 import java.util.Scanner;
 
@@ -12,11 +12,13 @@ public class Tercero {
         scanner.nextLine();
 
         //Comprueba el tipo de número
-        if (num < 0) {
+        if (num < 0){
             System.out.println("Es negativo");
-        } else if (num > 0) {
+        }
+        else if (num > 0){
             System.out.println("Es positivo");
-        } else {
+        }
+        else {
             System.out.println("No es ni positivo ni negativo");
         }
     }

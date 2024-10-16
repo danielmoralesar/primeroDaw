@@ -1,4 +1,4 @@
-package ifexercises;
+package IfExercises;
 
 import java.util.Scanner;
 
@@ -17,11 +17,13 @@ public class Primero {
         scanner.nextLine();
 
         //Los compara y da un resultado en base al primer número
-        if (n1 > n2) {
+        if (n1 > n2){
             System.out.println("Es mayor.");
-        } else if (n1 < n2) {
+        }
+        else if(n1 < n2){
             System.out.println("Es menor");
-        } else {
+        }
+        else{
             System.out.println("Son iguales");
         }
     }

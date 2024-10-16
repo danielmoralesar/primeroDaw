@@ -1,17 +1,15 @@
-package switchexcersises;
+package SwitchExcersises;
 
 import java.util.Scanner;
 
 public class sw03 {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Ingrese una palabra de 8 caracteres: ");
         String password = scanner.nextLine();
 
-        int characters = password.length();
-
-        switch (characters) {
+        switch (password.length()){
             case 8:
                 System.out.println("Es válido");
                 break;
@@ -19,6 +17,5 @@ public class sw03 {
                 System.out.print("No es válido");
                 break;
         }
-
     }
 }

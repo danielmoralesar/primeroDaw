@@ -1,9 +1,9 @@
-package ifexercises;
+package IfExercises;
 
 import java.util.Scanner;
 
 public class Quinto {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
         //solicita número A
@@ -32,11 +32,11 @@ public class Quinto {
             scanner.nextLine();
 
             //En caso de que C es mayor que A y B juntos.
-            if (C > (A + B)) {
+            if (C > (A+B)) {
                 System.out.println("c es mayor que a + b");
             }
             //En caso de que C es menor que A y B juntos.
-            else if (C < (A + B)) {
+            else if (C < (A+B)){
                 System.out.println("c es menor que a + b");
             }
             //En caso de que C sea igual que A y B juntos.
