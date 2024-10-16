@@ -11,7 +11,7 @@ public class While08 {
         int negative = 0;
         int nCounter = 0;
         int zero = 0;
-        int distribution = 0;
+        int distribution;
 
         while ((pCounter + nCounter + zero) < 10) {
             System.out.println("Ingrese un número: ");

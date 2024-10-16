@@ -20,6 +20,10 @@ public class DoWhile01 {
                 System.out.println("Dime tu nombre: ");
                 String name = scanner.nextLine();
                 System.out.println("Hola, " + name);
+            } else if (option == 2){
+                System.out.println("Dime tu nombre: ");
+                String name = scanner.nextLine();
+                System.out.println("Cuidado, "+ name + "!");
             }
         } while(option != 3);
     }
