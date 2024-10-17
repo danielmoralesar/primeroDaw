@@ -2,7 +2,7 @@ package SwitchExcersises;
 
 import java.util.Scanner;
 
-public class sw03 {
+public class Switch03 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 

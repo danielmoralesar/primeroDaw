@@ -2,7 +2,7 @@ package IfExercises;
 
 import java.util.Scanner;
 
-public class Primero {
+public class If01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
