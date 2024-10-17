@@ -6,16 +6,16 @@ public class While08 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int positive = 0;
-        int pCounter = 0;
-        int negative = 0;
-        int nCounter = 0;
+        double positive = 0;
+        double pCounter = 0;
+        double negative = 0;
+        double nCounter = 0;
         int zero = 0;
-        int distribution;
+        double distribution;
 
         while ((pCounter + nCounter + zero) < 10) {
             System.out.println("Ingrese un número: ");
-            distribution = scanner.nextInt();
+            distribution = scanner.nextDouble();
 
             if (distribution > 0) {
                 positive = positive + distribution;
@@ -27,12 +27,8 @@ public class While08 {
                 zero++;
             }
         }
-        if (pCounter != 0) {
-            System.out.println("Media de números positivos: " + positive / pCounter);
-        } else if (nCounter != 0) {
-            System.out.println("Media de números negativos: " + negative / nCounter);
-        } else {
-            System.out.println("Cantidad de ceros: " + zero);
-        }
+        System.out.println("Media de números positivos: " + positive / pCounter);
+        System.out.println("Media de números negativos: " + negative / nCounter);
+        System.out.println("Cantidad de ceros: " + zero);
     }
 }
