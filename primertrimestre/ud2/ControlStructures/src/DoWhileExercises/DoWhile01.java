@@ -24,6 +24,8 @@ public class DoWhile01 {
                 System.out.println("Dime tu nombre: ");
                 String name = scanner.nextLine();
                 System.out.println("Cuidado, "+ name + "!");
+            } else {
+                System.out.println("Opción inválida");
             }
         } while(option != 3);
     }
