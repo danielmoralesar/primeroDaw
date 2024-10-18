@@ -6,11 +6,12 @@ public class DoWhile02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Esto es una calculadora, elija una operación: ");
+        System.out.println("Esto es una calculadora,");
 
         int option;
 
         do {
+            System.out.println("Elija una operación: ");
             System.out.println("1. Sumar.");
             System.out.println("2. Restar.");
             System.out.println("3. Multiplicar");
